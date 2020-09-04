@@ -60,7 +60,7 @@ function init()
   iOSMeta.content = "yes";
   head.appendChild(iOSMeta);
   
-  updatesPerSecond = 5000000;
+  updatesPerSecond = 30;
   suppressErrors   = false;
   
   // Prepare the canvas
