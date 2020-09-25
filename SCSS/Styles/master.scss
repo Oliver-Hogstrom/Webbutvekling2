@@ -1,0 +1,20 @@
+@import './varibles';
+@import './function';
+
+header{
+    @include flex();
+    background: $red_color;
+    button{
+        background: $primaryBtn;
+    }
+}
+
+.contact{
+    @extend header;
+    @include flex();
+}
+
+.footer{
+    @include flex();
+    background: $red_color;
+}
