@@ -1,0 +1,6 @@
+@import "./varible";
+
+
+@mixin color($color){
+    background-color: $color;
+}  

@@ -1,0 +1,6 @@
+@import "./varible";
+@import "./function";
+
+body {
+    @include color($redder);
+}
