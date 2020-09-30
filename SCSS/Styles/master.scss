@@ -1,20 +1,11 @@
-@import './varibles';
-@import './function';
+@import "./variables";
+@import "./functions";
 
-header{
-    @include flex();
-    background: $red_color;
-    button{
-        background: $primaryBtn;
-    }
+body {
+    @include color($redder);
 }
 
-.contact{
-    @extend header;
-    @include flex();
-}
+.test{
+    @include change_font($super_large);
 
-.footer{
-    @include flex();
-    background: $red_color;
 }
