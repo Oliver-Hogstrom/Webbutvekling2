@@ -1,6 +1,27 @@
-@import "./varible";
-@import "./function";
+@import './varible';
+@import './function'; 
 
-body {
-    @include color($redder);
+// Glöm inte att du måste starta sass plugin:en
+
+.head{
+    @include flex();
+        h1{
+    @include font(serif, 50px);
+    }
+}
+
+.nav{
+    @include font(serif, 20px);
+}
+
+.main{
+    @include flex();
+    @include font(serif, 30px);
+}
+
+.footer{
+    @include flex();
+        button{
+    @include font(serif, 20px);
+    }
 }

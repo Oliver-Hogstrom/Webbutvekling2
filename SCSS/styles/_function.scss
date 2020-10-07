@@ -1,6 +1,12 @@
-@import "./varible";
+@import './varible';
 
+@mixin flex(){
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
 
-@mixin color($color){
-    background-color: $color;
-}  
+@mixin font($font_family, $size) {
+    font-family: $font_family;
+    font-size: $size;
+}
