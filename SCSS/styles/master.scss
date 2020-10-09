@@ -3,25 +3,46 @@
 
 // Glöm inte att du måste starta sass plugin:en
 
+body{
+    background-image: url("../client/comradepingu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.con{
+    height: 1000px;
+
 .head{
     @include flex();
+    @include MainMargin();
+    background: $head_color;
         h1{
     @include font(serif, 50px);
     }
 }
 
 .nav{
+    @include MainMargin();
     @include font(serif, 20px);
+    background: $nav_color;
+    ul{
+        @include FlexNav();
+    }
+
 }
 
 .main{
     @include flex();
+    @include MainMargin();
     @include font(serif, 30px);
+    background: $main_color;
 }
 
 .footer{
     @include flex();
+    @include MainMargin();
         button{
     @include font(serif, 20px);
     }
+}
 }

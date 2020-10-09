@@ -6,7 +6,19 @@
     flex-wrap: nowrap;
 }
 
+@mixin FlexNav() {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+
 @mixin font($font_family, $size) {
     font-family: $font_family;
     font-size: $size;
+}
+
+@mixin MainMargin() {
+    margin-left: 300px;
+    margin-right: 300px;
 }

@@ -1,4 +1,14 @@
-.head {
+body {
+  background-image: url("../client/comradepingu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.con {
+  height: 1000px;
+}
+
+.con .head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,19 +17,37 @@
           justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  margin-left: 300px;
+  margin-right: 300px;
+  background: red;
 }
 
-.head h1 {
+.con .head h1 {
   font-family: serif;
   font-size: 50px;
 }
 
-.nav {
+.con .nav {
+  margin-left: 300px;
+  margin-right: 300px;
   font-family: serif;
   font-size: 20px;
+  background: lightblue;
 }
 
-.main {
+.con .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  list-style-type: none;
+}
+
+.con .main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,11 +56,14 @@
           justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  margin-left: 300px;
+  margin-right: 300px;
   font-family: serif;
   font-size: 30px;
+  background: grey;
 }
 
-.footer {
+.con .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,9 +72,11 @@
           justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
-.footer button {
+.con .footer button {
   font-family: serif;
   font-size: 20px;
 }
