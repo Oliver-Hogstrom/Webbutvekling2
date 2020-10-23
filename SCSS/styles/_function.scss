@@ -1,6 +1,6 @@
 @import './varible';
 
-@mixin flex(){
+@mixin flex() {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;

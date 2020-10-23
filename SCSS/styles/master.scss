@@ -1,48 +1,83 @@
 @import './varible';
-@import './function'; 
+@import './function';
 
 // Glöm inte att du måste starta sass plugin:en
 
-body{
+body {
     background-image: url("../client/comradepingu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.con{
-    height: 1000px;
+.con {
 
-.head{
-    @include flex();
-    @include MainMargin();
-    background: $head_color;
-        h1{
-    @include font(serif, 50px);
-    }
-}
+    .head {
+        @include flex();
+        @include MainMargin();
+        height: $main_height;
+        background: $head_color;
 
-.nav{
-    @include MainMargin();
-    @include font(serif, 20px);
-    background: $nav_color;
-    ul{
-        @include FlexNav();
+        h1 {
+            @include font(serif, 50px);
+        }
+
+        img{
+            width: 400px;
+            height: 200px;
+        }
     }
 
-}
+    .nav {
+        @include MainMargin();
+        background-color: #333;
+        overflow: hidden;
 
-.main{
-    @include flex();
-    @include MainMargin();
-    @include font(serif, 30px);
-    background: $main_color;
-}
+        a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
 
-.footer{
-    @include flex();
-    @include MainMargin();
-        button{
-    @include font(serif, 20px);
+            &:hover {
+                background-color: #ddd;
+                color: black;
+            }
+        }
     }
-}
+
+
+    .main {
+        @include flex();
+        @include MainMargin();
+        @include font(serif, 30px);
+        height: $main_height;
+        background-color: $main_color;
+
+        img{
+            width: 400px;
+            height: 200px;
+        }
+        form{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            background: $main_color;
+            input{
+                background-color: $background_color;
+            }
+        }
+    }
+
+    .footer {
+        @include flex();
+        @include MainMargin();
+        height: 200px;
+
+        button {
+            @include font(serif, 20px);
+        }
+    }
 }
