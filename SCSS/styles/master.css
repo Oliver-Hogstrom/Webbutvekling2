@@ -41,7 +41,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 16px 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -80,10 +80,6 @@ body {
   background: grey;
 }
 
-.con .main form input {
-  background-color: #2e2e1f;
-}
-
 .con .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,5 +97,21 @@ body {
 .con .footer button {
   font-family: serif;
   font-size: 20px;
+}
+
+.login {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 10%;
+  height: 10%;
+  background-color: grey;
 }
 /*# sourceMappingURL=master.css.map */
