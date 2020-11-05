@@ -79,10 +79,17 @@ body {
     }
 }
 // For the login and registration
-.login{
+.h1{
     @include MainMargin();
-    @include flex();
+}
+.login{
+    margin:auto;
     width: 10%;
     height: 10%;
+    padding: 5px;
     background-color: $main_color;
+}
+.back_to_home{
+    @include MainMargin();
+
 }

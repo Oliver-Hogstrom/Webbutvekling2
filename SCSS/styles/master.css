@@ -99,19 +99,21 @@ body {
   font-size: 20px;
 }
 
-.login {
+.h1 {
   margin-left: 300px;
   margin-right: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+}
+
+.login {
+  margin: auto;
   width: 10%;
   height: 10%;
+  padding: 5px;
   background-color: grey;
+}
+
+.back_to_home {
+  margin-left: 300px;
+  margin-right: 300px;
 }
 /*# sourceMappingURL=master.css.map */
