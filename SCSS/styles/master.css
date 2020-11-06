@@ -15,8 +15,50 @@ body {
       flex-wrap: nowrap;
   margin-left: 300px;
   margin-right: 300px;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: test;
+          animation-name: test;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   height: 350px;
-  background: red;
+  background-color: red;
+}
+
+@-webkit-keyframes test {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: orange;
+  }
+  75% {
+    background-color: purple;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes test {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: orange;
+  }
+  75% {
+    background-color: purple;
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 .con .head h1 {

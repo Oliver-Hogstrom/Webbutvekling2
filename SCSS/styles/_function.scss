@@ -22,3 +22,19 @@
     margin-left: 300px;
     margin-right: 300px;
 }
+
+@mixin multiColor() {
+    @keyframes test {
+        0% {background-color: $first_color;}
+        25% {background-color: $second_color;}
+        50% {background-color: $third_color;}
+        75% {background-color: $fourth_color;}
+        100% {background-color: $first_color;}
+    }
+}
+
+@mixin animationDuration() {
+    animation-duration: 4s;
+    animation-name: test;
+    animation-iteration-count: infinite;
+}

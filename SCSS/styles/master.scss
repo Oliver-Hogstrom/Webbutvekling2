@@ -14,8 +14,10 @@ body {
     .head {
         @include flex();
         @include MainMargin();
+        @include animationDuration();
+        @include multiColor();
         height: $main_height;
-        background: $head_color;
+        background-color: $head_color;
 
         h1 {
             @include font(serif, 50px);
