@@ -1,4 +1,9 @@
 # Webbutvekling2
 <br>
 
-I GOT 16 OUT OF 25 ON THE JAVASCRIPT QUIZ
+# Lektion 18 november 2020
+<br>
+1. Undersök bootstrap templates
+2. Skissa på ett eget template
+3. Skapa ett eget template
+4. Frågor?

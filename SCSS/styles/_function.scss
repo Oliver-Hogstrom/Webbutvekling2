@@ -1,5 +1,4 @@
 @import './varible';
-
 @mixin flex() {
     display: flex;
     justify-content: center;
@@ -25,11 +24,21 @@
 
 @mixin multiColor() {
     @keyframes test {
-        0% {background-color: $first_color;}
-        25% {background-color: $second_color;}
-        50% {background-color: $third_color;}
-        75% {background-color: $fourth_color;}
-        100% {background-color: $first_color;}
+        0% {
+            background-color: $first_color;
+        }
+        25% {
+            background-color: $second_color;
+        }
+        50% {
+            background-color: $third_color;
+        }
+        75% {
+            background-color: $fourth_color;
+        }
+        100% {
+            background-color: $first_color;
+        }
     }
 }
 
